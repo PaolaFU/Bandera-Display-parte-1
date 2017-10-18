@@ -1,0 +1,33 @@
+
+/*Usando selector div */
+div{
+    /* Asignando 100px a height */
+    height: 100px;
+    /*Llamanos a la propiedad box-sizing, para que todos nuestros box sean del mismo tamaño*/
+    box-sizing: border-box;
+    /*Asignar el mismo tipo de letra a los tres bloques */
+    font-family: "Times New Roman";
+}
+
+/*llamando a selector de clase .yellow, */
+.yellow{
+    /* Asignandole color amarillo al fondo */
+    background: 	#FFFF00;
+    /* Asignandole 10px a padding, para q las letras no salgan al borde izquierdo*/
+    padding-left: 10px;
+    padding-top: 10px;
+    margin:5px 5px;
+
+}
+/*llamando a selector de clase .black*/
+.black{
+    /* Asignandole color negro al fondo */
+    background: #000000;
+    /*poniendo color blanco a las letras*/
+    color: white;
+    /*Colocamos un margen para que los box tenga una distancia entre ellos */
+    margin: 10px 5px;
+    /* Asignandole 10px a padding, para q las letras no salgan al borde izquierdo*/
+    padding-left: 10px;
+    padding-top: 10
+}
